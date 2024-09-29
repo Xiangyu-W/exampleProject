@@ -46,7 +46,7 @@ Installation
 
 This package can be installed from Github using::
 
-    pip install git+
+    pip install git+https://github.com/Xiangyu-W/exampleProject.git
 
 This will install exampleProject and all of its dependencies. We recommend installing it in a new virtual environment in case of conflicts between the packages. 
 
