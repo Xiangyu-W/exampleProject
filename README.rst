@@ -23,27 +23,34 @@
         :alt: Twitter
         :target: https://twitter.com/exampleProject
 
-.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
-    :alt: Project generated with PyScaffold
-    :target: https://pyscaffold.org/
+.. .. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
+..     :alt: Project generated with PyScaffold
+..     :target: https://pyscaffold.org/
 
-|
+.. |
 
 ==============
 exampleProject
 ==============
 
 
-    Add a short description here!
+Intro
+=====
 
 
-A longer description of your project goes here...
+An example python package.
 
 
-.. _pyscaffold-notes:
+Installation
+============
 
-Note
-====
+This package can be installed from Github using::
 
-This project has been set up using PyScaffold 4.5. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+    pip install git+
+
+This will install exampleProject and all of its dependencies. We recommend installing it in a new virtual environment in case of conflicts between the packages. 
+
+
+The recommended version of Python::
+
+    python_requires = >=3.8.13
